@@ -19,4 +19,4 @@ while True:
         sleep(1)
     except Exception as e:
         print("error!")
-        break
+        sleep(60)
