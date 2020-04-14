@@ -1,3 +1,5 @@
+import os
+import sys
 import smtplib
 from time import sleep
 
@@ -16,5 +18,7 @@ while True:
         print("mail sent!")
         sleep(1)
     except Exception as e:
-        print("pause!")
-        sleep(60)
+        print("error!")
+        python = sys.executable
+        os.execl(python, python, *sys.argv)
+        #sleep(60)
