@@ -10,3 +10,4 @@ print("Login success")
 
 while True:
     server.sendmail(user, 'nhcfizika@yahoo.com', 'Bonjour. Sakam 5ka!')
+    sleep(100)
