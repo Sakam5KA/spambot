@@ -1,4 +1,5 @@
 import smtplib
+from time import sleep
 
 user = 'sakam5ka@gmail.com'
 password = 'sakampetka123'
