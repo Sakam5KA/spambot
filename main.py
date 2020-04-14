@@ -13,7 +13,7 @@ server.login(user, password)
 print("Login success")
 
 while True:
-    server.sendmail(user, 'nhcfizika@yahoo.com', 'Bonjour. Sakam 5ka!'
+    server.sendmail(user, 'nhcfizika@yahoo.com', 'Bonjour. Sakam 5ka!')
     print("mail sent!")
     s.quit()
     sleep(60)
