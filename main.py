@@ -6,7 +6,7 @@ from time import sleep
 user = 'sakam5ka@gmail.com'
 password = 'sakampetka123'
 
-server = smtplib.SMTP_SSL('smtp.gmail.com', 587)
+server = smtplib.SMTP('smtp.gmail.com', 587)
 server.ehlo()
 server.starttls()
 server.login(user, password)
