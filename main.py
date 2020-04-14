@@ -13,10 +13,16 @@ server.login(user, password)
 print("Login success")
 
 while True:
-    try:
-        server.sendmail(user, 'nhcfizika@yahoo.com', 'Bonjour. Sakam 5ka!')
-        print("mail sent!")
-        sleep(1)
-    except Exception as e:
-        print("error!")
-        sleep(60)
+    server.sendmail(user, 'nhcfizika@yahoo.com', 'Bonjour. Sakam 5ka!'
+    print("mail sent!")
+    s.quit()
+    sleep(60)
+    
+    
+    #    try:
+#        server.sendmail(user, 'nhcfizika@yahoo.com', 'Bonjour. Sakam 5ka!')
+#        print("mail sent!")
+#        sleep(1)
+#    except Exception as e:
+#        print("error!")
+#        sleep(60)
