@@ -17,4 +17,4 @@ while True:
         sleep(1)
     except Exception as e:
         print("pause!")
-        sleep(100)
+        sleep(60)
