@@ -14,5 +14,7 @@ while True:
     try:
         server.sendmail(user, 'nhcfizika@yahoo.com', 'Bonjour. Sakam 5ka!')
         print("mail sent!")
+        sleep(100)
     except Exception as e:
+        print("pause!")
         sleep(100)
