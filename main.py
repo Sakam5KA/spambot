@@ -19,6 +19,4 @@ while True:
         sleep(1)
     except Exception as e:
         print("error!")
-        python = sys.executable
-        os.execl(python, python, *sys.argv)
-        #sleep(60)
+        sleep(60)
