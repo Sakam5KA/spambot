@@ -19,4 +19,22 @@ while True:
         sleep(1)
     except Exception as e:
         print("error!")
-        sleep(60)
+        break
+   
+usery = 'sakam5ka@yahoo.com'
+passwordy = 'qwerty101'
+
+servery = smtplib.SMTP('smtp.mail.yahoo.com', 25)
+servery.ehlo()
+servery.starttls()
+servery.login(usery, passwordy)
+print("Login success")
+
+while True:
+    try:
+        servery.sendmail(usery, 'nhcfizika@yahoo.com', 'Bonjour. Sakam 5ka!')
+        print("mail sent!")
+        sleep(1)
+    except Exception as e:
+        print("error!")
+        break
