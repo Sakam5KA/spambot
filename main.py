@@ -12,10 +12,10 @@ while True:
     server.starttls()
     server.login(user, password)
     print("Login success")
-    server.sendmail(user, 'nhcfizika@yahoo.com', 'Bonjour. Sakam 5ka!')
+    server.sendmail(user, 'stojanovskaslagjana@yahoo.fr', 'Bonjour. Sakam 5ka!')
     print("mail sent!")
     server.quit()
-    sleep(1)
+    sleep(2)
     
     
     #    try:
