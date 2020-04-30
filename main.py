@@ -3,8 +3,8 @@ import sys
 import smtplib
 from time import sleep
 
-user = 'sakam5ka@gmail.com'
-password = 'sakampetka123'
+user = 'vdzhashendechlp@gmail.com'
+password = 'and2302ban1504'
 
 while True:
     server = smtplib.SMTP('smtp.gmail.com', 587)
