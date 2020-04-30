@@ -3,7 +3,7 @@ import sys
 import smtplib
 from time import sleep
 
-user = 'vdzhashendechlp@gmail.com'
+user = 'vdzhashendechko@gmail.com'
 password = 'and2302ban1504'
 
 while True:
